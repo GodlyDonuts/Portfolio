@@ -1,4 +1,5 @@
 body {
     text-align: center;
-    background-color: beige;
+    -webkit-text-fill-color: white;
+    background-color: black;
 }
