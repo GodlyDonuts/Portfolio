@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-.heading {
+title {
     font-size: 70px;
     font-weight: 600;
     background-image: linear-gradient(to left, #4400ff, #69389b);
@@ -9,15 +9,3 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
 }
-
-.filter {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-  
