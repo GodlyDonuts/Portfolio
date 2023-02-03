@@ -2,10 +2,14 @@ body {
     background-color: black;
 }
 .heading {
-    text-align: center;
-    background-color: rgb(30, 0, 255); 
-    -webkit-text-fill-color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
+
 .filter {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -15,7 +19,5 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 4px;
-    border: white;
-  }
+}
   
