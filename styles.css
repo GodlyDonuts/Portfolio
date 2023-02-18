@@ -56,7 +56,3 @@ nav ul li a{
 .downloads:hover {
     background-image: linear-gradient(30deg, purple, rgb(64, 0, 255), blue);
 }
-
-.homeHeading {
-    color: white;
-}
