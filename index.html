@@ -6,7 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        .bgContainer {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .bg {
+            pointer-events: none;
+            position: absolute;
+            filter: saturate(3);
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            padding: 0px;
+            margin: 0px;
+            background: url('cyberpunkBackground.png') no-repeat;
+            background-size: cover;
+        }
+
+        .bgHeading {
+            color: white;
+            position: relative;
+            text-decoration: underline;
+            font-size: 120px;
+            text-align: center;
+            line-height: 300px;
+            z-index: 10;
+        } 
+    </style>
 </head>
 <body>
     <nav>
@@ -14,16 +45,22 @@
         <ul>
             <li><a style="text-decoration: underline;" class="home" href="index.html">Home</a></li>
             <li><a class="about" href="about.html">About</a></li>
-            <li><a class="services" href="services.html">Services</a></li>
-            <li><a class="contacts" href="contacts.html">Contact</a></li>
             <li><a class="downloads" href="downloads.html">Downloads</a></li>
+            <li><a class="contacts" href="contacts.html">Contact</a></li>
+            <li><a class="play" href="play.html">Play</a></li>
         </ul>
     </nav>
 
-    <div>
-        
+    <div class="bgContainer">
+        <div>
+            <img class="bg" src="cyberpunkBackground.png" alt="cyber">
+        </div>
+        <div>
+            <h1 class="bgHeading">
+                Welcome
+            </h1>
+        </div>
     </div>
 
 </body>
 </html>
-

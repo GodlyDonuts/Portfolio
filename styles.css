@@ -12,6 +12,8 @@ body{
 }
 
 nav{
+    position: absolute;
+    z-index: 11;
     background: black;
     height: 80px;
     width: 100%;
@@ -43,16 +45,16 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-.downloads {
+.play {
     background-image: linear-gradient(30deg, purple, blue);
     padding: 10px 15px;
     border-radius: 64px;
 }
 
-.home:hover, .about:hover, .services:hover, .contacts:hover {
+.home:hover, .about:hover, .downloads:hover, .contacts:hover {
     text-decoration: underline;
 }
 
-.downloads:hover {
+.play:hover {
     background-image: linear-gradient(30deg, purple, rgb(64, 0, 255), blue);
 }
