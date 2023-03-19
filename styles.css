@@ -79,7 +79,8 @@ header {
 
 .home-img img {
     width: 35vw;
-    padding-left: 75px;
+    padding-left: 7rem;
+    cursor: default;
 }
 
 .home-content h3 {
@@ -154,7 +155,8 @@ span {
 }
 
 .about-img img {
-    width: 35vh;
+    padding-right: 5rem;
+    cursor: default;
 }
 
 .heading {
@@ -170,3 +172,135 @@ span {
 .about-content h3 {
     font-size: 2.6rem;
 }
+
+.about-content p {
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
+}
+
+.about-content a:hover {
+    background: var(--second-bg-color);
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.03);
+}
+
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.services-box a:hover {
+    background: var(--second-bg-color);
+}
+
+.portfolio {
+    background: var(--second-bg-color);
+}
+
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+ .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+ }
+
+ .portfolio-container .portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+ }
+
+ .portfolio-box img {
+    width: 100%;
+    transition: .5s ease;
+ }
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+ .portfolio-box .portfolio-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .01), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+ }
+
+.portfolio-box:hover .portfolio-layer {
+    transform: translateY(0);
+}
+
+ .portfolio-layer h4 {
+    font-size: 3rem;
+ }
+
+ .portfolio-layer p {
+    font-size: 1.2rem;
+    margin: .3rem 0 1rem;
+ }
+
+ .portfolio-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+ }
+
+ .portfolio-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+ }
